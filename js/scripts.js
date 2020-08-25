@@ -21,13 +21,12 @@ function createTitle()
     title.setAttribute("id", "title")
 
     title.innerText = "Work under progress"
-    
-    document.getElementById('title-wrapper').style.width = "fit-content";
-    document.getElementById('title-wrapper').style.margin = "auto"
-    document.getElementById('title-wrapper').style.background = "black";
-    document.getElementById('title-wrapper').style.color = "white";
     document.getElementById('title-wrapper').appendChild(title)
-
+    
+    document.getElementById('title').style.width = "fit-content";
+    document.getElementById('title').style.margin = "auto"
+    document.getElementById('title').style.background = "black";
+    document.getElementById('title').style.color = "white";
 }
 
 function startscript(){
